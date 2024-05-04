@@ -1,0 +1,232 @@
+.menu{
+    display: flex;
+    flex-direction:row;
+    padding: 1%;
+    justify-content: space-around;
+}
+  .container{ 
+   background:yellowgreen top center / 100% repeat url('/uploads/2023/11/phone_bg_0_1699843784.png');
+ display: flex;
+align-items: center;
+flex-shrink: 0;  
+margin-left: 300px;
+margin-right:300px ;
+border-radius: 10px;
+border: 1px solid #000;
+padding-right: 10зч;
+
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.button{
+  display: flex;
+width: 234px;
+height: 50px;
+padding: 14px 85px;
+align-items: flex-start;
+border-radius: 200px;
+border: 1px solid #000;
+background: #DCE5E2;
+
+}
+.main-text{
+max-width: 500px;
+}
+.card-img{
+  width: 249px;
+height: 219px;
+flex-shrink: 0;
+}
+.container-cards{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%; 
+justify-content: space-around;
+
+
+}
+.text-2{
+  color: #000;
+text-align: center;
+font-family: Readex Pro;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 52.5px; /* 125% */
+ /* 125% */
+}
+.margin-bottom{
+  display: flex;
+width: 1377px;
+justify-content: space-between;
+align-items: flex-start;
+align-content: space-between;
+flex-wrap: wrap;
+}
+.QAR{
+  display: flex;
+width: 100px;
+height: 100px;
+border-radius: 32px;
+
+padding: 5%;
+
+margin-right: 600px;
+}
+.i2{
+  display: flex;
+width: 100px;
+height: 3px;
+padding: 16px 23px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.card-2{
+  border-radius: 10px;
+border: 1px solid #000;
+background: yellow;
+padding: 10px;
+float:right;
+
+
+}
+.card elements:hover{
+  
+  border: 2px solid grey;
+  margin: 10px;
+  padding: 30px;
+}
+.logo{
+  float:left;
+  border-radius: 200px;
+border: 1px solid #000;
+background: #DCE5E2;
+width: 40px;
+height: 40px;
+}
+.type-2{
+  float:right;
+  border-radius: 200px;
+  border: 1px solid #000;
+  background: #DCE5E2;
+   
+}
+.menu-elements{
+  color: blue;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px; /* 120% */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.blok{
+  text-align: center;
+  margin-top: 30px;
+}
+.DER{
+  margin-left:40px;
+  
+}
+.link{
+  margin-left: 40px;
+}
+header{
+  background-color: lightgrey;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.rog{
+ border-collapse: collapse;
+}
+.pop{
+  
+  color: blue;
+text-align: center;
+font-family: Readex Pro;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 52.5px; /* 125% */
+ /* 125% */
+}
+.kola{
+  width: 900px;
+margin-right:30px ;
+
+
+}
+.yuy{
+background-color: lavender;
+height: 100px;
+}
+.m{
+  border: 2px solid blueviolet;
+  width: 1000px;
+  padding-left:  50px ;
+
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 500px;
+  left: 500px;
+  margin:0 auto ;
+}
+.lol{
+  width: 500px;
+  height: 100px;
+}
+.l{
+
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 500px;
+  left: 500px;
+  margin:0 auto ;
+  border: 2px solid blueviolet;
+  padding: 50px;
+}
+.pip{
+  float:left;
+  border-radius: 200px;
+border: 1px solid #000;
+background: #DCE5E2;
+width: 40px;
+height: 40px;
+margin: 30px;
+}
+.tett{
+  margin-top:30px ;
+}
+.ty{
+  
+  text-align: center;
+}
+.png{
+  background-color: aqua;
+  padding: 20px;
+  margin-top: 40px;
+}
+.dfd{
+  margin: 0 auto;
+}
+
+.pup{
+  margin-top: 30px;
+}
+.ioi{
+  margin-left:50px ;
+}
+.tit{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 900px;
+  margin: 0 auto;
+  
+}
