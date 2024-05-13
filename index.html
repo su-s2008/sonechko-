@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >СОНЕЧКО</title>
+    <title src="завантаження.png">СОНЕЧКО</title>
    
     <link rel="stylesheet" href="styil.css"/>
 </head>
@@ -16,13 +16,100 @@
     <div class='menu'>
         <a href="#c2"class='menu-elements' >головна</a>
         <a href="#c1" class ='menu-elements'>товари</a>
+        <div class="catalog-conteiner"> 
+            <ul class="catalog-menu">
+                <li class="catalog-menu-item has-submenu">
+                    <div class="icon icon-original" style="();"></div>
+                    <div class="icon icon-colored" style="();"></div>
+                    <a href="index2.html" class="name">хлопчик</a>
+                    
+                </li>
+            </ul>
+            <ul class="catalog-menu">
+              
+                <li class="catalog-menu-item has-submenu">
+                    <div class="icon icon-original" style="();"></div>
+                    <div class="icon icon-colored" style="();"></div>
+                    <a href="" class="name">дівчинка</a> 
+                    
+                </li>
+            </ul>
+            <ul class="catalog-menu">
+                <li class="catalog-menu-item has-submenu">
+                    <div class="icon icon-original" style="();"></div>
+                    <div class="icon icon-colored" style="();"></div>
+                    <a href="" class="name">немовля</a>
+                    
+                </li>
+            </ul>
+        </div>
         <a href="#c4"class='menu-elements' >графік роботи</a>
         <a href="#c5"class='menu-elements'>контакти</a>
         
-        <button class="mybtn">Корзина</button>
-
+        <button class="mybtn">Корзина</button> <i class="ri-arrow-down-s-line"></i>
+       <button class="btn-login">увійти</button>
     </div>
     </header>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box ">
+            <h2 class="jpeg">login</h2>
+            <div class="input-box">
+                <span class="icon"></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+           
+            <div class="input-box">
+                <span class="icon"></span>
+                <input type="password" required>
+                <label>password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot pasword?</a>
+            </div>
+             <button type="submit" class="btn">login</button>
+             <div class="login-register">
+                <p>Немає акаунта<a href="#" class="logister-link">зарегиструватися</a></p>
+             </div>
+        </div>
+        </div>
+        <div class="wrapper">
+            <span class="icon-close">
+                <i class="ri-close-large-line"></i>
+            </span>
+            <div class="form-box register ">
+                <h2 class="jpeg">Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <input type="text" required>
+                        <label>username</label>
+                    </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+               
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot pasword?</a>
+                </div>
+                 <button type="submit" class="btn">login</button>
+                 <div class="login-register">
+                    <p>Немає акаунта<a href="#" class="logister-link">зарегиструватися</a></p>
+                 </div>
+            </div>
+    </div>
     <div class='container'>
         <div class='block'>
             <h1 id="c2" class='DER'>Наш vieber канал:</h1> 
@@ -30,7 +117,7 @@
             <img class="QAR" src ="QAR.png"/>
             
           
-          
+          </div>
         </div>
     </div>
     <div class="png">
@@ -162,8 +249,5 @@
      
 </body>
 </html>
-
-
-  
 
            
